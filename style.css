@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding-top: 40px;
+    width: 100vw;
+}
+
+.container {
+    background-color: #FFF;
+    width: 350px;
+    height: 400px;
+    display: block;
+    border: 1px solid #DBDBDB;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.container2 .photocel {
+    display: block;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.container img {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input {
+    width: 265px;
+    height: 28px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: 1px solid #CCC;
+    padding: 5px;
+    outline-style: none;
+    font-size: 12px;
+}
+
+.inputs button {
+    background-color: #0095f6;
+    width: 278px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container .or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.or h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #8E8E8E;
+}
+ 
+.or .border1 {
+    display: flex;
+    width: 105px;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.or .border2 {
+    display: flex;
+    width: 105px;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-field {
+    display: inline-flex;
+}
+
+.facebook-field p {
+    text-decoration: none;
+    color: #385185;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.facebook-field img {
+    margin-top: -1.5px;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    color: #00376b;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    height: 55px;
+}
+
+.sign p {
+    font-size: 14px;
+    color: #262626;
+}
+
+.sign a {
+    text-decoration: none;
+    color:#0095f6;
+    font-weight: 400;
+}
+
+.apps-field {
+    display: block;
+
+}
+
+.apps-field p {
+    text-align: center;
+    margin-top: 20px;
+    color: #262626;
+    font-size: 14px;
+}
+
+.apps-field .apps {
+    display: flex;
+    margin-top: -40px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.apps img {
+    width: auto;
+}
+
+.footer {
+    display: block;
+    width: 800px;
+    text-align: center;
+    margin-left: -410px;
+}
+
+.footer1 p {
+    word-spacing: 10px;
+    color: #8e8e8e;
+    font-size: 11.5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.footer2 {
+    color: #8e8e8e;
+    font-size: 11.5px;
+    cursor: pointer;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+@media (max-width: 875px) {
+    .container2 {
+        display: none;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    .footer {
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .footer1 {
+      margin-right: 450px;
+      width: 100%;
+    }
+
+    .footer2 {
+        margin-right: 500px;
+        width: 100%;   
+    }
+
+    .footer1 p {
+        word-spacing: 15px;
+        text-align: center;
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .container {
+        margin-top: -60px;
+    }
+    
+
+    .container, .sign {
+        border: hidden;
+    }
+
+}
